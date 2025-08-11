@@ -129,7 +129,7 @@ function shareOnTwitter() {
   const score =
     document.getElementById("moves")?.innerText || "an amazing score";
   const time = document.getElementById("time")?.innerText || "unknown time";
-  const tweetText = `I escaped the COW MAZE  in ${score} moves! under 🕒 ${time}. Think you can beat my time? find out here at https://steddy-teddy.vercel.app/  @steadyteddys
+  const tweetText = `I escaped the COW MAZE  in ${score} moves! under 🕒 ${time}. Think you can beat my time? find out here at https://the-lamumu-adventure.vercel.app/  @lamumudotxyz
  `;
   const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
     tweetText
